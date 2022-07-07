@@ -19,12 +19,15 @@ article > p{
     margin-top: 30px;
 }
 
+.container{
+    text-align: center;
+}
+
 .bordo{
     margin-top: 30px;
-    margin-right: 20px;
-    width: calc(100% / 3 - 40px);
+    margin-left: 10px;   
+    width: calc(100% / 3 - 20px);
     background-color: black;
-    /* height: 100px; */
 }
 
 .float-left{
@@ -39,14 +42,19 @@ article > p{
 
 .info{
    text-align: left;
-   margin-top: 50px;
+   margin-top: 20px;
    margin-left: 15px;
    font-size: 12px;
 }
 
-.info h3, .info h5{
+.info h3{
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.info h5{
+    color: #fff;
+    font-size: 13px;
 }
 
 .info a{
@@ -54,11 +62,16 @@ article > p{
 }
 
 .immagine{
-    width: 130px;
+    width: 100px;
 }
 
 img{
     width: 100%;
+    display: block;
+}
+
+.shadow{
+    box-shadow: 5px red;
 }
 
 

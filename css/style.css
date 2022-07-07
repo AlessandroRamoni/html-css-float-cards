@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
     max-width: 1200px;
     text-align: center;
 }
@@ -20,10 +20,11 @@ article > p{
 }
 
 .bordo{
-    border: 2px solid black;
     margin-top: 30px;
     margin-right: 20px;
     width: calc(100% / 3 - 40px);
+    background-color: black;
+    /* height: 100px; */
 }
 
 .float-left{
@@ -37,12 +38,29 @@ article > p{
 }
 
 .info{
+   text-align: left;
    margin-top: 50px;
+   margin-left: 15px;
+   font-size: 12px;
 }
 
-/* img{
+.info h3, .info h5{
+    color: #fff;
+    font-size: 15px;
+}
+
+.info a{
+    color: #65c0de;
+}
+
+.immagine{
+    width: 130px;
+}
+
+img{
     width: 100%;
-} */
+}
+
 
 /* .container > div{
     width: 33%;

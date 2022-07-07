@@ -24,10 +24,14 @@ article > p{
 }
 
 .bordo{
-    margin-top: 30px;
-    margin-left: 10px;   
-    width: calc(100% / 3 - 20px);
+    margin-top: 40px;
+    margin-left: 25px;   
+    width: calc(100% / 3 - 25px);  
     background-color: black;
+    box-shadow: 5px  5px 5px #d5d5d4,
+    -5px -5px 5px #d5d5d4,
+     5px -5px 5px #d5d5d4,
+    -5px  5px 5px #d5d5d4;
 }
 
 .float-left{
@@ -42,7 +46,7 @@ article > p{
 
 .info{
    text-align: left;
-   margin-top: 20px;
+   margin-top: 15px;
    margin-left: 15px;
    font-size: 12px;
 }
@@ -50,6 +54,7 @@ article > p{
 .info h3{
     color: #fff;
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 .info h5{
@@ -59,6 +64,8 @@ article > p{
 
 .info a{
     color: #65c0de;
+    text-decoration: none;
+    margin-top: 5px;
 }
 
 .immagine{

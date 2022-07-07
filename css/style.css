@@ -18,3 +18,36 @@ header > h1{
 article > p{
     margin-top: 30px;
 }
+
+.bordo{
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+.float-left{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.info{
+   margin-top: 50px;
+}
+
+/* img{
+    width: 100%;
+} */
+
+/* .container > div{
+    width: 33%;
+    border: 2px solid black;
+} */
+
+/* 
+
+ */
+

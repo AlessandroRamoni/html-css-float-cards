@@ -22,13 +22,15 @@ article > p{
 .bordo{
     border: 2px solid black;
     margin-top: 30px;
+    margin-right: 20px;
+    width: calc(100% / 3 - 40px);
 }
 
 .float-left{
     float: left;
 }
 
-.clearfix{
+.clearfix::after{
     clear: both;
     display: table;
     content: "";
